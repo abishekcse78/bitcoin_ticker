@@ -11,7 +11,9 @@ void checkNumbers(List<int> myNumbers) {
   int matches = 0;
 
   for (int myNum in myNumbers) {
+    /// myNumbers's All Elements are Stored in myNum
     for (int winningNum in winningNumbers) {
+      /// winningNumbers's All Elements are Stored in winningNum
       if (winningNum == myNum) {
         matches++;
         print(winningNum);
